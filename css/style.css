@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+/*     border: 2px solid red; */
+    background-color: #24252a;
+    text-align: center;
+    height: 50px;
+}
+
+header{
+/*     border: 2px solid red; */
+    background-color: #24252a;
+    text-align: center;
+    height: 50px;
+}
+
+.nav__links img{
+    height: 35px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.nav__links a{
+    color: white;
+    text-decoration: none;
+/*     border: solid; */
+    margin-right: 110px;
+}
+
+.nav__links button{
+    color: white;
+    background-color: #401ca3;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav__links{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+li{
+    display: inline;
+}
+
+.bannerContainer{
+/*     border: solid red; */
+    height: 700px;
+    background: rgba(0,0,0,0.1) url(../images/banner.png);
+    background: ur;
+    background-position: center;
+    background-position-x: 60px;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.banner__title{
+    width: 50%;
+    color: white;
+/*     border: solid white; */
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+
+.banner__subtitle{
+    color: white;
+/*     border: solid green; */
+    width: 40%;
+    position: absolute;
+    top: 210px;
+    left: 80px;
+}
+
+.banner__subtitle span{
+    font-style: italic;
+}
+
+.banner__content{
+    color: white;
+/*     border: solid purple; */
+    width: 30%;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    text-align: justify;
+}
+
+
+.networkDisclaimerContainer{
+    color: white;
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.generalMintInfoContainer{
+    height: 500px;
+    background-image: url(../images/halftone_background_12.jpg);
+    background-size: cover;
+/*     border: solid red; */
+}
+
+.logoContainer{
+    text-align: center;
+/*     border: solid green; */
+    padding-top: 20px;
+}
+
+.logoContainer img{
+    height: 50px;
+}
+
+.aboutTheMint{
+    text-align: center;
+    font-weight: bold;
+/*     border: solid palegreen; */
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.aboutTheMint span{
+    font-style: italic;
+}
+
+.mintCardContainer{
+/*     border: solid blue; */
+    text-align: center;
+    padding-top: 80px;
+}
+
+.card{
+    display: inline-block;
+    padding-top: 20px;
+    color: aliceblue;
+    height: 100px;
+    width: 140px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.tapa{
+    background-color: #000000;
+    height: 70px;
+    width: 140px;
+/*     border: solid white; */
+    position: absolute;
+    top: 625px;
+    right: 20px;
+}
+
+.projectPurposeContainer{
+/*     border: solid red; */
+    background-color: rgb(29, 6, 73);
+    background-image: url(../images/aboutusbannerbg.jpg);
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.purpose__message{
+/*     border: solid green; */
+    color: rgb(255, 255, 255);
+    width: 60%;
+    text-align: justify;
+    padding-top: 55px;
+    margin-left: 300px;
+}
+
+.membersContainer{
+    height: 800px;
+    border: solid white;
+    background-image: url(../images/membersbg.jpg);
+    background-size: cover;
+    position: relative;
+    padding-left: 90px;
+}
+
+.img1Container img{
+    height: 200px;
+    border-radius: 30px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.member1Container{
+/*     border: solid green;
+ */    width: 70%;
+    border-radius: 20px;
+    color: white;
+    background-color: #24252a;
+    padding: 20px;
+    margin-top: 65px;
+    margin-left: 300px;
+    text-align: justify;
+}
+
+.img2Container img{
+    height: 200px;
+    border-radius: 30px;
+    position: absolute;
+    top: 250px;
+    right: 150px;
+}
+
+.member2Container{
+/*     border: solid green; */
+    width: 70%;
+    border-radius: 20px;
+    color: white;
+    background-color: #24252a;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 80px;
+    text-align: justify;
+
+}
+
+.member3Container{
+/*     border: solid green; */
+    width: 70%;
+    border-radius: 20px;
+    color: white;
+    background-color: #24252a;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 300px;
+    text-align: justify;
+
+}
+
+.img3Container img{
+    height: 200px;
+    border-radius: 30px;
+    position: absolute;
+    top: 470px;
+    left: 80px;
+    
+}
+
+.member1Container span{
+    font-style: italic;
+}
+
+.member2Container span{
+    font-style: italic;
+}
+.member3Container span{
+    font-style: italic;
+}
+
+.faqTitle{
+    color: white;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+/*     padding-top: 30px; */
+/*     outline: solid red;
+ */    padding: 2%;
+}
+
+.qna__container{
+    width: 100%;
+    height: 800px;
+/*     outline: solid blue;
+ */    position: relative;
+    background-color: black;
+}
+
+.q__container{
+    border: solid white;
+/*     outline: solid green; */
+    height: 10%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 1%;
+    position: relative;
+    top: 10px;
+    left: 30%;
+    margin-top: 9px;
+}
+
+.qnum__container{
+/*     outline: solid yellow;
+ */    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-right: 70px;
+}
+
+.qq__container{
+/*     outline: solid yellow;
+ */    margin-right: 100px;
+}
+
+
+.a__container{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+.img__container{
+/*     outline: solid red;
+ */    width: 100%;
+/*     height: 300px; */
+    text-align: center;
+    padding: 30px;
+    background-image: url(../images/49.jpg);
+    background-size: cover;
+}
+
+.img__container img{
+    height: 200px;
+    border-radius: 10px;
+    margin: 0px 40px;
+    outline: solid black;
+}
+
+.follow__disclaimer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.projectdesc__container{
+/*     outline: solid blue;
+ */    background-image: url(../images/halftone_background_12.jpg);
+    background-size: cover;
+}
+
+.desc__title, .desc__content, .desc__footer{
+/*     outline: solid green;
+ */    padding: 30px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.discordlogo__container img{
+    height: 70px;
+    border-radius: 50px;
+}
+
+.discordlogo__container{
+    text-align: center;
+    padding: 30px;
+}
+
+.form__container{
+    background-color: #7260b4;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.form__body{
+    width: 50%;
+    height: 100px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    left: 300px;
+
+}
+
+.form__body img{
+    height: 40px;
+}
+
+.login-card{
+    width: 450px;
+    background: rgba(255, 255, 255, .5);
+    padding: 4rem;
+    border-radius: 70px;
+    position: relative;
+}
+
+
+.login-card-logo img{
+    width: 50px;
+}
+
+.login-card-logo{
+    text-align: center;
+}
+
+.login-card-header{
+    text-align: center;
+
+}
+
+.login-card-form{
+    text-align: center;
+
+}
+
+.login-card-footer{
+    text-align: center;
+
+}
+
+.socials-container{
+    text-align: center;
+}
+
+.button-container{
+    padding: 10px;
+}
+
+#sign-in-button{
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background: black;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.login-card-form input[type="text"]{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-card-form input[type="password"]{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-item, .form-item-2{
+    padding: 10px;
+}
+
+.form-item, .form-item-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact__body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, #282aaa,#270f53 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-item input{
+    padding: 5px;
+}
+
+p{
+    padding: 10px;
+}
+
+textarea{
+    border-radius: 6px;
+}
